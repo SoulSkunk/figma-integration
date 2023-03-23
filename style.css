@@ -1,13 +1,15 @@
 /*TOP IMAGE PART*/
+
+#top_box {
+  display: flex;
+}
+/*icons part*/
 #top_left_icon {
-  position: relative;
   display: flex;
   flex-direction: column;
   height: 128.08636474609375px;
   width: 18px;
-  left: 15px;
-  top: 328px;
-  border-radius: 0px;
+  margin-top: 10%;
 }
 
 .icons {
@@ -15,19 +17,12 @@
   height: auto;
   margin-top: 180%;
 }
-
+/*img top area*/
 #top_img {
-  margin-left: 3vw;
-}
-
-#top_box {
-  display: flex;
+  margin-left: 3%;
 }
 
 #imgg {
-  height: 127%;
+  height: 45.5vw;
   width: auto;
-  left: 50px;
-  top: 101px;
-  border-radius: 0px;
 }
